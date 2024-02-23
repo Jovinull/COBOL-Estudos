@@ -18,10 +18,11 @@ COBOL (Common Business-Oriented Language) é uma linguagem de programação proj
 - Baixe o [Visual Studio Code](https://code.visualstudio.com/) através do site oficial.
 
 ### 2. Instalação e Configuração do VSCode
-- Siga as instruções para instalar o VSCode.
+- Siga a instalação e configuração padrão.
 
-### 3. Instalação da Extensão IntelliSense - Highlight
-- Abra o VSCode e instale a extensão "IntelliSense - Highlight".
+### 3. Instalação de Extensões COBOL úteis
+- Abra o VSCode e instale a extensão "COBOL" da BitLang.
+- Também instale a extensão "COBOL Themes" da BitLang.
 
 ### 4. Download dos Binários do GNU COBOL para Windows
 - Baixe os binários compilados do GNU COBOL para Windows [aqui](https://drive.google.com/file/d/1vxzDfmOhT21uNzBjasbKg8UjbsJPPGMv/view?usp=sharing).
@@ -38,8 +39,16 @@ COBOL (Common Business-Oriented Language) é uma linguagem de programação proj
     - 6.2.3. `COB_COPY_DIR`: aponte para o subdiretório "copy" do GNU COBOL.
     - 6.2.4. `COB_INCLUDE_PATH`: aponte para o subdiretório "lib" do GNU COBOL.
 
+![Variáveis do Sistema](https://i.imgur.com/Z0Vtk9i.png)
+
 ### 7. Adição das Variáveis de Ambiente no Path do Sistema
-- Adicione as variáveis de ambiente de sistema à variável "Path".
+- Adicione as variáveis de ambiente de sistema à variável "Path":
+  - `COB_BIN_DIR`
+  - `COB_CONFIG_DIR`
+  - `COB_COPY_DIR`
+  - `COB_INCLUDE_PATH`
+
+![Variáveis de Ambiente na PATH](https://i.imgur.com/txDguuV.png)
 
 ### 8. Teste da Configuração
 - Abra um prompt de comando e teste com `cobc -v`.
@@ -59,8 +68,9 @@ COBOL (Common Business-Oriented Language) é uma linguagem de programação proj
 ### 2. Instalação e Configuração do VSCode
 - Dê permissões e siga as instruções para instalar o VSCode.
 
-### 3. Instalação da Extensão COBOL IntelliSense
-- Instale a extensão "COBOL IntelliSense" no VSCode.
+### 3. Instalação da Extensão COBOL
+- Instale a extensão "COBOL" da BitLang.
+- Também instale a extensão "COBOL Themes" da BitLang.
 
 ### 4. Instalação do GNU COBOL no Linux
 - No terminal, execute `sudo apt install open-cobol` para instalar o GNU COBOL.
