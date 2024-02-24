@@ -15,6 +15,9 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Extensions that should be ignored
+*.exe
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
