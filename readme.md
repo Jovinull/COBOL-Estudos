@@ -81,9 +81,47 @@ COBOL (Common Business-Oriented Language) é uma linguagem de programação proj
 ### 6. Teste do GNU COBOL no VSCode
 - Teste o GNU COBOL no VSCode.
 
-## Como transformar código fonte em executável (compilar código fonte)
+# Como transformar código fonte em executável (compilar código fonte)
 - cobc -x <nome do arquivo>
 - **OBS: FAÇA ISSO NA PASTA QUE ESTIVER ESTE ARQUIVO OU ANTES DO NOME COLOQUE O LOCAL**
+
+# Organização das Pastas
+
+### 1. Introdução e Conceitos Básicos
+   - LINGUAGEM-PROGRAMAÇÃO-COBOL
+   - CODIGO-COBOL
+   - VARIAVEIS-TIPOS-DADOS
+   - VARIAVEIS-CONSTANTES
+
+### 2. Comandos e Instruções
+   - COMANDOS-INSTRUCOES
+   - COMANDOS-ENCERRAMENTO
+   - DISPLAY
+   - ACCEPT
+   - MOVE
+   - SET
+   - PERFORM
+   - COMPUTE
+   - INSPECT
+   - INITIALISE
+   - STRING
+   - UNSTRING
+   - ON-SIZE-ERROR
+   - LENGTH
+   - CORR
+
+### 3. Operadores e Literais
+   - MATEMATICA-ALTERNATIVA
+   - OPERADORES-LITERAIS
+   - OPERADORES-NOMENCLATURA
+
+### 4. Estruturas de Controle
+   - ESTRUTURA-DECISAO-IF
+   - ESTRUTURA-DECISAO-EVALUATE
+   - ESTRUTURAS-REPETICAO
+
+### 5. Sub-rotinas
+   - SUBROTINAS
 
 ## Contribuições
 Contribuições são bem-vindas! Se você tem um exemplo interessante, correção ou sugestão, sinta-se à vontade para abrir uma issue ou enviar um pull request. Este repositório é destinado a ser uma comunidade onde todos podem aprender e colaborar.
