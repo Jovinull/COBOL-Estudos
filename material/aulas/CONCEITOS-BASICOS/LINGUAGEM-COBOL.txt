@@ -75,5 +75,5 @@ O COBOL é dividido em áreas, suas margens, elas são verticais (colunas) que s
         > FILE SECTION
         > WORKING-STORAGE SECTION
 
-    OBJETIVO
+    - OBJETIVO
         Como os dados são manipulados
