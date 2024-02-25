@@ -88,7 +88,7 @@ COBOL (Common Business-Oriented Language) é uma linguagem de programação proj
 # Organização das Pastas
 
 ### 1. Introdução e Conceitos Básicos
-   - LINGUAGEM-PROGRAMAÇÃO-COBOL
+   - LINGUAGEM-COBOL
    - CODIGO-COBOL
    - VARIAVEIS-TIPOS-DADOS
    - VARIAVEIS-CONSTANTES

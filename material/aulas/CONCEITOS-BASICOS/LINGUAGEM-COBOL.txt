@@ -1,0 +1,79 @@
+> Em 1959, foi criada a Linguagem Cobol (Common Business Oriented Language) - Linguagem Comum Orientada a Negócios.
+Trata-se de uma linguagem de programação estruturada, que prima pela simplicidade, objetividade e organização de
+código-fonte. É uma linguagem de programação de alto nível, principalmente por seu código escrito assemelha-se
+muito com comandos humanamente ditados à própria máquina, em inglês.
+
+> Estrutura do COBOL
+    - IDENTIFICATION DIVISION.
+    - ENVIRONMENT DIVISION.
+    - DATA DIVISION.
+    - PROCEDURE DIVISION.
+
+> Regras de Codificação no Editor de Texto
+O COBOL é dividido em áreas, suas margens, elas são verticais (colunas) que são númeradas em colunas, sendo:
+    - Colunas de 1 a 6  : Área de Númeração
+    - Coluna 7          : Área de Indicação ("-", "*", "/")
+                         "-" Continuação de uma Literal;
+                         "*" Linha de Comentário;
+                         "/" Determina que ocorrerá um salto de
+                            Pagina no Relatório de Compilação
+    - Colunas de 8 a 11 : Área A (Nomes de Divisões, Seções e Parágrafos)
+    - Colunas de 12 a 72: Área B (Instruções COBOL)
+    - Colunas de 73 a 80: Área de Comentário
+
+> Palavras Reservadas COBOL
+    - Significado próprio para o compilador, de uso exclusivo do compilador.
+        EX: DATA (DADOS), TIME (HORA), etc.
+
+    - Nomes do COBOL
+        - Nome-de-Dados (data-names)
+            São nomes atribuídos aos dados utilizados no programa.
+            EX: Nome de arquivos, nome de campos, etc.
+        - Nomes-de-Procedimento (Procedure-Names)
+            Identificam os nomes de parágrafos, seções e divisões.
+        - Nomes-de-Condição (condition-names)
+            Designação de valores assumidos por um item de dados.
+        - Nomes-Externos (external-names)
+            São os nomes externos atribuídos às partes físicas do computador.
+
+> Estrutura das Divisões do COBOL
+
+    - IDENTIFICATION DIVISION
+        > PROGRAM-ID.       NOME-PROGRAMA
+        > AUTHOR.           NOME-PROGRAMADOR
+        > DATE WRITTEN.     "DATA DE CONDIFICAÇÃO"
+        > DATE-COMPILED.    "DATA DA ÚLTIMA COMPILAÇÃO"
+        > SECURITY.         "PROPÓSITO DO PROGRAMA"
+
+    OBJETIVO:
+        - Identificar o programa no computador;
+        - Proporciona informações documentais, importante
+        para analise superficial do programa.
+
+    - ENVIRONMENT DIVISION
+        > CONFIGURATION SECTION
+            SPECIAL-NAMES.
+            DECIMAL-POINT IS COMMA.
+
+        > INPUT-OUTPUT SECTION
+            FILE-CONTROL.
+            
+            SELECT file-name ASSIGN TO {DISK, PRINTER}
+                [ ORGANIZATION IS {SEQUENTIAL, INDEXED, LINE SEQUENTIAL, RELATIVE}
+                [ ACESS MODE IS {SEQUENTIAL, RANDOM, DYNAMIC}
+                [ RECORD KEY IS nome-chave-primaria ]
+                [ ALTERNATE RECORD KEY IS nome-chave-secundaria_ [WITH DUPLICATES]]
+                [ FILE STATUS IS nome-campo-file-status].
+
+            OBS: Breve descrição de como a gente informa como os arquivos no COBOL são criados
+
+    - OBJETIVO
+        Define os arquivos a serem utilizados na programação, sua organização,
+        meio de acesso, chaves primárias e/ou secundárias.
+
+    - DATA DIVISION
+        > FILE SECTION
+        > WORKING-STORAGE SECTION
+
+    OBJETIVO
+        Como os dados são manipulados
